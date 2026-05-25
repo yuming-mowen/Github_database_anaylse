@@ -1,5 +1,4 @@
 """
-keywords_catagory.py
 对各类别关键词进行聚类分析，使用平均 Stars、平均 Topics 和增长斜率作为聚类特征，并绘制聚类散点图。
 
 说明：
