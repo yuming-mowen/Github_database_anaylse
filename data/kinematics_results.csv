@@ -1,0 +1,51 @@
+﻿仓库名,星数,语言,更新时间,项目描述,话题标签,是否支持捐赠,是否有Issues,仓库ID,类型
+orocos/orocos_<em>kinematics</em>_dynamics,878,C++,2026-05-07T06:32:35.824Z,Orocos <em>Kinematics</em> and Dynamics C++ library,,False,True,13630013,Public
+ANYbotics/kindr,608,C++,2025-02-15T04:17:50.332Z,<em>Kinematics</em> and Dynamics for Robotics,,False,True,17901838,Public
+Phylliade/ikpy,1001,Python,2026-01-12T06:34:39.407Z,"IKPy, an Universal Inverse <em>Kinematics</em> library","python,robotics,poppy,inverse-kinematics,urdf",False,True,42932894,Public
+yeemachine/kalidokit,5646,TypeScript,2025-08-18T21:10:53.796Z,"Blendshape and <em>kinematics</em> calculator for Mediapipe/Tensorflow.js Face, Eyes, Pose, and Finger tracking models.","face-detection,pose-estimation,hand-detection,vtuber,tensorflowjs,mediapipe-facemesh,mediapipe-hands,mediapipe-pose",False,False,414835328,Public
+kevinzakka/mink,1350,Python,2026-05-15T19:50:38.375Z,Python inverse <em>kinematics</em> based on MuJoCo.,"python,inverse-kinematics,mujoco",True,True,763348154,Public
+TheComet/ik,543,C,2020-12-01T16:19:06.008Z,Minimal Inverse <em>Kinematics</em> library ,"animation,solver,calculations,inverse-kinematics,wiki-page,python-bindings,algorithm-library,rotation,3d,ik,inverse-kinematics-library,rotations,end-effector",False,True,84004367,Public
+UM-ARM-Lab/pytorch_<em>kinematics</em>,801,Python,2026-04-16T00:44:05.142Z,Robot <em>kinematics</em> implemented in pytorch,"robotics,kinematics,pytorch,jacobian,differentiable-programming",False,True,331721571,Public
+ditzel/SimpleIK,433,C#,2023-06-23T19:11:37.518Z,Unity Inverse <em>Kinematics</em> made easy,,False,True,170966237,Public
+glumb/<em>kinematics</em>,261,JavaScript,2017-10-23T08:31:36.968Z,🤖 JavaScript 6DOF robot <em>kinematics</em> library,"nodejs,javascript,robot,robotics,kinematics,6dof-robot-kinematics",True,True,73542805,Public
+soulwire/Muscular-Hydrostats,492,JavaScript,2016-12-13T13:54:03.925Z,Tentacle simulation using inverse <em>kinematics</em>,,False,True,6441230,Public
+jsantell/THREE.IK,573,JavaScript,2023-03-15T14:13:00.100Z,inverse <em>kinematics</em> for three.js,"threejs,inverse-kinematics,ik",False,True,127994086,Public
+jhavl/dkt,558,Jupyter Notebook,2023-07-27T21:05:31.933Z,A Tutorial on Manipulator Differential <em>Kinematics</em>,"python,robotics,kinematics,inverse-kinematics,manipulation,jacobian,hessian,robotics-control,robotics-simulation,robot-manipulation,robot-manipulator",False,True,507704401,Public
+stephane-caron/pink,762,Python,2026-04-20T14:10:33.868Z,Python inverse <em>kinematics</em> using Pinocchio and QP solvers,"python,robotics,kinematics,inverse-kinematics,urdf,pinocchio",False,True,456113789,Public
+yorkhackspace/meArm,124,C++,2020-08-27T13:59:13.145Z,Inverse <em>kinematics</em> control library for Phenoptix meArm,,False,True,19648379,Public
+lo-th/fullik,464,JavaScript,2025-05-17T07:05:50.395Z,javascript fast iterative solver for Inverse <em>Kinematics</em>,,True,True,55900583,Public
+udacity/RoboND-<em>Kinematics</em>-Project,83,C++,2021-12-02T12:56:54.911Z,Pick and Place project for RoboND Term 1,,False,True,94035571,Public archive
+RotBotSlicer/Transform,262,Python,2023-10-16T08:56:55.676Z,Algorithm for 3D printer with new <em>kinematics</em>,,False,True,397597170,Public
+perfanalytics/pose2sim,631,Python,2026-05-22T12:58:03.854Z,Markerless <em>kinematics</em> with any cameras — From 2D Pose estimation to 3D OpenSim motion,"blender,kinematics,sports,biomechanics,motion-capture,mocap,opensim,pose-estimation,openpose,3d-kinematics,markerless",False,True,501642916,Public
+chungmin99/pyroki,1548,Python,2026-04-01T00:13:52.425Z,A Modular Toolkit for Robot <em>Kinematic</em> Optimization,,False,True,979060063,Public
+PhysikaTeam/PhysIKA-old,102,C++,2021-09-23T05:14:26.219Z,PhysIKA: Physics-based Interactive <em>Kinematics</em> Architecture,"fluid,elasticity,fracture,physics-based-animation,elastoplasticity",False,True,76628858,Public archive
+roboticslibrary/rl,1178,C++,2025-04-15T21:15:32.996Z,"The Robotics Library (RL) is a self-contained C++ library for rigid body <em>kinematics</em> and dynamics, motion planning, and control.","visualization,c-plus-plus,robotics,kinematics,dynamics,collision-detection,motion-planning,path-planning,hardware-abstraction,rigid-body-dynamics,multibody",False,True,20737145,Public
+alecjacobson/computer-graphics-<em>kinematics</em>,111,C++,2022-02-25T21:52:33.052Z,Computer Graphics Assignment about <em>Kinematics</em>,,False,True,157281986,Public
+jeffffffli/HybrIK,1593,Python,2025-01-08T10:01:45.198Z,"Official code of ""HybrIK: A Hybrid Analytical-Neural Inverse <em>Kinematics</em> Solution for 3D Human Pose and Shape Estimation"", CVPR 2021","pytorch,inverse-kinematics,cvpr,pose-estimation,3d-pose-estimation,smpl,cvpr21",False,True,317186983,Public
+thomas-haslwanter/scikit-<em>kinematics</em>,141,Python,2025-08-21T20:50:25.693Z,Python functions for working with 3D <em>kinematics</em>.,,False,True,55969719,Public
+JuliaRobotics/RigidBodyDynamics.jl,310,Julia,2024-11-08T01:37:46.033Z,Julia implementation of various rigid body dynamics and <em>kinematics</em> algorithms,"control,robotics,simulation,julia,kinematics,dynamics,dynamics-models,robotics-control,simulation-modeling,robotics-algorithms,newtons-laws,rigid-body-dynamics,robotics-simulation,featherstone",False,True,56713309,Public
+linorobot/<em>kinematics</em>,71,C++,2019-02-27T14:00:12.316Z,"Arduino <em>Kinematics</em> library for differential drive(2WD, 4WD) and mecanum drive robots.",,False,True,76704882,Public
+SebLague/Cloth-and-IK-Test,192,C#,2021-09-20T18:05:18.560Z,Simple 2D cloth simulation test + FABRIK (inverse <em>kinematics</em>) test,,False,True,408539432,Public
+personalrobotics/aikido,231,C++,2023-03-10T20:08:11.859Z,"Artificial Intelligence for <em>Kinematics</em>, Dynamics, and Optimization","robotics,motion-planning,ros,perception,robot-control",False,True,34424077,Public
+neka-nat/kinpy,181,Python,2026-05-21T07:47:46.361Z,Simple <em>kinematics</em> calculation toolkit for robotics,"python,robot,robotics,kinematics,inverse-kinematics,manipulator,sdf,urdf,forward-kinematics,mujoco",True,True,206802340,Public
+hacoo/rtik,177,C++,2020-07-22T21:42:20.827Z,Comprehensive inverse <em>kinematics</em> system for Unreal Engine 4,,False,True,95819794,Public
+gt-ros-pkg/hrl-kdl,35,Python,2023-03-08T20:19:07.235Z,<em>Kinematics</em> and geometry utilities for KDL,,False,True,15808393,Public
+openrr/k,215,Rust,2026-04-30T02:32:30.457Z,k: <em>Kinematics</em> Library for rust-lang,"rust,robotics,kinematics",False,True,99237988,Public
+PickNikRobotics/pick_ik,95,C++,2025-01-14T02:44:32.624Z,Inverse <em>Kinematics</em> solver for MoveIt,,False,True,540208976,Public
+lanius/tinyik,137,Python,2021-06-24T14:47:34.571Z,A tiny inverse <em>kinematics</em> solver,,False,True,51378912,Public
+jrl-umi3218/Tasks,106,C++,2026-05-22T01:13:21.122Z,The Tasks library is designed to make real-time control for <em>kinematics</em> tree and list of <em>kinematics</em> tree.,,False,True,5661402,Public
+gkjohnson/closed-chain-ik-js,286,JavaScript,2026-04-06T23:45:30.162Z,"A generalized inverse <em>kinematics</em> solver that supports closed chains for parallel <em>kinematics</em> systems, dynamic reconfiguration, and arbitra…","javascript,threejs,control,robotics,animation,graphics,parallel,least-squares,inverse-kinematics,robots,urdf,joints,three,ik",False,True,303886911,Public
+andyzeng/ikfastpy,263,C++,2019-04-28T22:56:03.359Z,Python wrapper over OpenRave's IKFast inverse <em>kinematics</em> solver for a UR5 robot arm.,"robotics,motion-planning,artificial-intelligence,inverse-kinematics,universal-robots,trajectory-optimization,forward-kinematics,openrave,ikfast",False,True,146354519,Public
+dbddqy/visual_<em>kinematics</em>,152,Python,2022-07-26T13:07:02.330Z,simple python-based <em>kinematics</em> solver for robot arm,,False,True,273053144,Public
+nicholas-maltbie/OpenKCC,773,C#,2023-09-15T06:06:13.119Z,Open Source <em>Kinematic</em> Character Controller for Unity,"game-development,unity3d,character-cotnroller",False,True,416635803,Public
+jdj2261/pykin,80,Python,2025-04-21T09:16:33.083Z,Python robot's <em>kinematics</em> library,"python,robotics,kinematics,collision-checking",False,True,391910715,Public
+Lukaszm94/RobotSimulator,46,C++,2016-05-27T19:10:13.506Z,6-DOF robot forward and inverse <em>kinematics</em> + visualisation,,False,True,59857205,Public
+StanfordASL/frax,284,Python,2026-05-20T05:24:28.329Z,Fast Robot <em>Kinematics</em> and Dynamics in JAX,,False,True,1201766215,Public
+rpiRobotics/ik-geo,196,C++,2025-10-27T00:38:02.785Z,"Inverse <em>kinematics</em> and subproblem solutions from ""IK-Geo: Unified robot inverse <em>kinematics</em> using subproblem decomposition"" implemented in…",,False,True,509588473,Public
+grotius-cnc/skynet_robot_control_rtos_ethercat,116,,2022-01-05T04:21:33.571Z,"Realtime 6-axis robot controller, based on Qt C++ &amp; OpenCascade &amp; KDL <em>kinematics</em> &amp; HAL","robot,hal,opencascade,kdl-kinematics",False,True,309120815,Public
+Jmeyer1292/opw_<em>kinematics</em>,96,C++,2026-04-20T18:05:56.846Z,"Closed form IK for parallel base, spherical wrist industrial manipulators",,False,True,107891838,Public
+uw-biorobotics/IKBT,216,Python,2026-01-30T00:53:06.512Z,A python package to solve robot arm inverse <em>kinematics</em> in symbolic form,"python,ai,math,robotics,kinematics,symbolic",False,True,104386447,Public
+dabeschte/VRArmIK,169,C#,2020-06-23T13:35:00.547Z, Unity Inverse <em>Kinematics</em> solution for arms in VR,"unity,animation,vr,unity3d,virtual-reality,inverse-kinematics,arms",False,True,136157976,Public
+ros/geometry,178,C++,2025-05-31T17:00:32.055Z,"Packages for common geometric calculations including the ROS transform library, ""tf"". Also includes ROS bindings for ""bullet"" physics eng…",,False,True,8787327,Public archive
+Kurble/bevy_mod_inverse_<em>kinematics</em>,163,Rust,2026-05-11T07:44:29.605Z,An inverse <em>kinematics</em> plugin for the Bevy engine,,False,True,537911756,Public
+sebastianstarke/BioIK,145,,2021-10-13T01:07:23.143Z,Generic Evolutionary Inverse <em>Kinematics</em> for Unity3D,,False,True,98437407,Public

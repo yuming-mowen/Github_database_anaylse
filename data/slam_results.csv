@@ -1,0 +1,51 @@
+﻿仓库名,星数,语言,更新时间,项目描述,话题标签,是否支持捐赠,是否有Issues,仓库ID,类型
+raulmur/ORB_<em>SLAM</em>2,10160,C++,2024-05-15T07:48:28.633Z,"Real-Time <em>SLAM</em> for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities",,False,True,50255244,Public
+UZ-SLAMLab/ORB_<em>SLAM</em>3,8636,C++,2024-07-24T08:41:52.352Z,"ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map <em>SLAM</em>",slam-algorithms,False,True,280608729,Public
+gaoxiang12/<em>slambook2</em>,6490,C++,2024-12-27T07:33:49.365Z,edition 2 of the slambook,,False,True,145275555,Public
+gaoxiang12/<em>slambook</em>,7422,C++,2024-03-22T07:09:47.558Z,,slam,False,True,62030242,Public
+wesbos/beginner-javascript,6772,HTML,2024-05-15T10:36:47.486Z,<em>Slam</em> Dunk JavaScript,,False,True,189282896,Public
+gongbingg/<em>slam</em>,116,,2016-08-23T02:24:10.832Z,"learning <em>SLAM</em>,curse,paper and others",,False,False,73598676,Public
+tum-vision/lsd_<em>slam</em>,2711,C++,2023-03-23T14:55:27.618Z,LSD-<em>SLAM</em>,,False,True,23995982,Public
+breakdowns/<em>slam</em>-mirrorbot,1254,Python,2023-12-04T06:45:07.228Z,Aria/qBittorrent Telegram Mirror/Leech Bot.,"python,heroku,telegram-bot,google-drive,qbittorrent,youtube-dl,mega,rclone,shortener,aria2,torrent-downloader,hacktoberfest,uptobox,torrent-search,pyrogram,mirrorbot,team-drive,mirror-bot,telegram-mirror-bot,heroku-bot",False,True,338021836,Public archive
+slam-code/<em>SLAM</em>,393,C++,2017-10-08T15:47:08.191Z,<em>slam</em>源码分析,,False,True,95301752,Public
+electech6/ORB_<em>SLAM</em>2_detailed_comments,1673,C++,2023-05-25T16:59:05.931Z,"Detailed comments for ORB-SLAM2 with trouble-shooting, key formula derivation, and diagrammatic drawing",,False,True,254632357,Public
+electech6/ORB_<em>SLAM</em>3_detailed_comments,1458,C++,2023-12-11T09:55:10.720Z,Detailed comments for ORB-SLAM3,,False,True,317421856,Public
+Ewenwan/ORB_<em>SLAM</em>2_SSD_Semantic,1563,C++,2020-08-14T09:00:24.313Z,动态语义<em>SLAM</em> 目标检测+VSLAM+光流/多视角几何动态物体检测+octomap地图+目标数据库,"object-detection,octomap,semantic-slam,dynamic-slam",False,True,154316359,Public
+SilentSys/<em>SLAM</em>,392,Visual Basic .NET,2021-01-23T18:25:17.331Z,Source Live Audio Mixer,"counter-strike,tf2,slam",False,True,42414062,Public
+SteveMacenski/<em>slam</em>_toolbox,2482,C++,2026-05-20T17:10:19.267Z,<em>Slam</em> Toolbox for lifelong mapping and localization in potentially massive maps with ROS,,False,True,133582946,Public
+raulmur/ORB_<em>SLAM</em>,1625,C++,2022-09-18T00:48:53.109Z,A Versatile and Accurate Monocular <em>SLAM</em>,,False,True,31615024,Public
+koide3/hdl_graph_<em>slam</em>,2281,C++,2024-07-16T01:39:14.749Z,3D LIDAR-based Graph <em>SLAM</em>,"point-cloud,ros,lidar,slam,velodyne,hdl-graph-slam,rslidar",False,True,115905660,Public
+rmurai0610/MASt3R-<em>SLAM</em>,3030,Python,2025-11-09T07:36:29.671Z,[CVPR 2025] MASt3R-<em>SLAM</em>: Real-Time Dense <em>SLAM</em> with 3D Reconstruction Priors,"computer-vision,robotics,slam,cvpr2025",False,True,938231495,Public
+YiChenCityU/Recent_<em>SLAM</em>_Research,2744,,2021-10-21T06:16:45.584Z,Track Advancement of <em>SLAM</em> 跟踪<em>SLAM</em>前沿动态【2021 version】業務調整，暫停更新,"open-source,semantic,fusion,reconstruction,slam,mobile-robots,state-estimation,research-paper,vins,vslam,multiple-sensors,lidar-odometry,lidar-slam",False,True,148293790,Public
+AlbertSlam/Lee-<em>SLAM</em>-source,1154,,2024-03-31T07:24:09.053Z,<em>SLAM</em> 开发学习资源与经验分享,,False,True,86158044,Public
+xdspacelab/openvslam,2985,,2021-02-25T06:32:26.161Z,OpenVSLAM: A Versatile Visual <em>SLAM</em> Framework,"computer-vision,robotics,vr,panorama,slam,fisheye,visual-slam,visual-odometry,vslam",False,True,183462315,Public archive
+shichaoy/cube_<em>slam</em>,889,C++,2020-11-24T06:02:41.824Z,CubeSLAM: Monocular 3D Object Detection and <em>SLAM</em>,slam,False,True,154606317,Public
+princeton-vl/DROID-<em>SLAM</em>,2577,Python,2025-05-05T05:29:42.307Z,,,False,True,399623107,Public
+cvg/nice-<em>slam</em>,1580,Python,2023-03-10T19:06:09.001Z,[CVPR'22] NICE-<em>SLAM</em>: Neural Implicit Scalable Encoding for <em>SLAM</em>,"scalable,localization,deep-learning,slam,3d-reconstruction,neural-fields,implicit-functions,neural-implicit-representations",False,True,474907133,Public
+yanyan-li/<em>SLAM</em>-BOOK,1089,Python,2024-07-20T14:57:03.130Z,这是一本关于<em>SLAM</em>的书稿，希望能清楚的介绍<em>SLAM</em>系统中的使用的几何方法和深度学习方法。书稿最后应该会达到200页左右，书稿每章对应的代码也会被整理出来。,slam,False,True,261866684,Public
+kanster/awesome-<em>slam</em>,1663,,2020-07-13T17:49:45.329Z,"A curated list of awesome <em>SLAM</em> tutorials, projects and communities.",,False,True,59407792,Public
+ros-perception/<em>slam</em>_gmapping,731,C++,2024-08-21T00:33:41.837Z,"<a href=""http://www.ros.org/wiki/slam_gmapping"" rel=""nofollow"">http://www.ros.org/wiki/slam_gmapping</a>",,False,True,8337535,Public
+tzutalin/awesome-visual-<em>slam</em>,2420,,2022-05-10T17:57:19.776Z,"📚 The list of vision-based <em>SLAM</em> / Visual Odometry open source, blogs, and papers","learning,books,point-cloud,ros,reconstruction,slam,computervision",False,True,63038123,Public
+gaoxiang12/<em>slambook</em>-en,1870,TeX,2025-07-07T03:07:24.143Z,The English version of 14 lectures on visual <em>SLAM</em>.,,False,True,89142087,Public
+gaoxiang12/<em>slam</em>_in_autonomous_driving,2503,C++,2025-11-13T06:14:24.622Z,《自动驾驶中的<em>SLAM</em>技术》对应开源代码,,False,True,599893682,Public
+urbste/MultiCol-<em>SLAM</em>,691,C++,2020-08-05T07:41:41.779Z,This repository contains a multi-fisheye camera <em>SLAM</em>. The underlying <em>SLAM</em> system is based on ORB-<em>SLAM</em>.,,False,True,66338218,Public
+tu-darmstadt-ros-pkg/hector_<em>slam</em>,733,C++,2025-05-30T14:14:40.529Z,hector_<em>slam</em> contains ROS packages related to performing <em>SLAM</em> in unstructed environments like those encountered in the Urban Search and Re…,,False,True,10050401,Public
+mp3guy/ElasticFusion,1916,C++,2025-08-03T10:04:09.330Z,Real-time dense visual <em>SLAM</em> system,"cuda,reconstruction,slam",False,True,44748564,Public
+zang09/ORB_<em>SLAM</em>3_ROS2,500,C++,2024-07-22T09:18:26.408Z,ROS2 wrapping package for orbslam3 library,,False,True,521100601,Public
+felixendres/rgbdslam_v2,979,C++,2023-07-18T08:43:02.231Z,RGB-D <em>SLAM</em> for ROS,,False,True,19455240,Public
+youngguncho/awesome-<em>slam</em>-datasets,1928,,2024-12-13T04:29:23.831Z,A curated list of awesome datasets for <em>SLAM</em>,,False,True,133256832,Public
+PKU-VCL-3DV/<em>SLAM</em>3R,1167,Python,2025-10-18T10:20:36.877Z,[CVPR 2025 Highlight] Real-time dense scene reconstruction with SLAM3R,,False,True,901859734,Public
+SLAM-Handbook-contributors/<em>slam</em>-handbook-public-release,4501,TeX,2026-04-21T06:18:53.392Z,Release repo for our <em>SLAM</em> Handbook,,False,True,878773100,Public
+wuxiaolang/Visual_<em>SLAM</em>_Related_Research,1824,,2021-07-05T05:27:50.637Z,视觉(语义) <em>SLAM</em> 相关研究跟踪,"semantic,opensource,mapping,papers,slam,visualodometry",False,True,164679918,Public
+HKUST-Aerial-Robotics/A-LOAM,2401,C++,2023-10-19T11:18:59.910Z,Advanced implementation of LOAM,"lidar,slam,loam",False,True,174171286,Public
+tum-vision/dvo_<em>slam</em>,669,C++,2016-09-21T19:57:35.938Z,Dense Visual Odometry and <em>SLAM</em>,,False,True,12110125,Public
+koide3/interactive_<em>slam</em>,957,C++,2024-08-04T03:08:42.197Z,Interactive Map Correction for 3D Graph <em>SLAM</em>,"gui,point-cloud,ros,lidar,slam,velodyne,hdl-graph-slam",False,True,213639181,Public
+OpenSLAM/awesome-<em>SLAM</em>-list,634,,2018-08-16T07:35:40.255Z,awesome-<em>SLAM</em>-list,,False,True,76878037,Public
+halajun/VDO_<em>SLAM</em>,805,C++,2023-05-25T07:21:24.521Z,VDO-<em>SLAM</em>: A Visual Dynamic Object-aware <em>SLAM</em> System,,False,True,226221728,Public
+simondlevy/Breezy<em>SLAM</em>,807,C,2026-02-05T18:31:28.820Z,"Simple, efficient, open-source package for Simultaneous Localization and Mapping",,False,True,23774852,Public
+thien94/orb_<em>slam</em>3_ros,413,C++,2023-12-18T03:02:30.982Z,A ROS implementation of ORB_SLAM3,,False,True,539984669,Public
+FangGet/ORB_<em>SLAM</em>2_Android,296,C++,2017-07-06T03:23:41.284Z,Repo no longer maintained,,False,True,54777683,Public
+VladimirYugay/Gaussian-<em>SLAM</em>,1156,Python,2024-07-03T15:01:05.718Z,Gaussian-<em>SLAM</em>: Photo-realistic Dense <em>SLAM</em> with Gaussian Splatting,"computer-vision,robotics,slam,3d-reconstruction,gaussian-splatting",False,True,724547005,Public
+rubengooj/pl-<em>slam</em>,789,C++,2019-11-24T16:47:40.466Z,This code contains an algorithm to compute stereo visual <em>SLAM</em> by using both point and line segment features.,,False,True,98532337,Public
+abhineet123/ORB_<em>SLAM</em>2,317,C++,2019-05-31T01:38:36.340Z,Modified version of ORB <em>SLAM</em> for an autonomous navigation project,,False,True,86986442,Public
+thien94/ORB_<em>SLAM</em>2_CUDA,395,C++,2021-05-24T12:14:33.570Z,ORB_SLAM2 with GPU Enhancement running on NVIDIA Jetson TX1. Focus on ROS part.,,False,True,109803695,Public
