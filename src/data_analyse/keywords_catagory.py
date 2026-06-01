@@ -121,6 +121,8 @@ def KMeans(feature_dict, category_num):
                     keys = k
                     break
             key_word[i].append(keys)
+    # 聚类按照中心距离原点的距离排序
+    key_word.sort(key=lambda x : distance([0 ,0], cal_center([feature_dict[y] for y in x], feature_num)))
     return key_word
 
 def plot_cluster_scatter(feature_dict, key_word):
