@@ -5,17 +5,14 @@
 import pymysql
 import pandas as pd
 import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 class GitHubDBManager:
     def __init__(self):
         # 数据库配置
-        self.config = {
-            'host': 'localhost',
-            'user': 'root',
-            'password': 'root',
-            'database': 'github_analysis',
-            'charset': 'utf8mb4'
-        }
+        self.config = CONFIG
 
     def save_repos_to_db(self, repo_list, category):
         """将解析出的列表数据批量写入 repositories 和 repo_topics 表"""

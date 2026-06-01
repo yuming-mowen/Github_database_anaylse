@@ -4,7 +4,10 @@
 
 import pandas as pd
 import pymysql
-from config import CONFIG
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 conn = pymysql.connect(**CONFIG)
 

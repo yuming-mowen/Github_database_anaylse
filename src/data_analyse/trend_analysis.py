@@ -13,7 +13,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 import pymysql
-from config import CONFIG
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 设置中文字体和 seaborn 风格，使图表在中文环境下显示正确
 plt.rcParams['font.sans-serif'] = ['SimHei']

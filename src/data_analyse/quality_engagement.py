@@ -6,7 +6,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pymysql
-from config import CONFIG
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 建立数据库连接并查询需要的字段：stars、该仓库的话题数量（topics_count）和是否开启 issues
 conn = pymysql.connect(**CONFIG)

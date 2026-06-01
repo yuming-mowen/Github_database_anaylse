@@ -4,7 +4,6 @@
 """
 
 import os
-
 import crawler
 import extract
 
@@ -41,6 +40,7 @@ def data_produce(keywords):
 
 
 if __name__ == "__main__":
+    # 关键词列表
     keywords = [
         "robotics", "slam", "quadruped", "motion-planning", "kinematics",
         "computer-vision", "optimization", "path-planning", "graph-neural-networks", "control-theory",

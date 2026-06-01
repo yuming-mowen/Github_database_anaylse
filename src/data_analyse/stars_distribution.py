@@ -7,7 +7,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pymysql
 import numpy as np
-from config import CONFIG
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 建立数据库连接并查询有星数的仓库（排除 stars <= 0）
 conn = pymysql.connect(**CONFIG)

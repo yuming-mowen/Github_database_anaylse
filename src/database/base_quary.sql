@@ -6,6 +6,7 @@ USE github_analysis;
 -- 删除表中所有信息 用于调试代码
 SET SQL_SAFE_UPDATES = 0;
 TRUNCATE TABLE repo_topics;
+ALTER TABLE repo_topics DROP FOREIGN KEY repo_topics_ibfk_1;
 TRUNCATE TABLE repositories;
 SET SQL_SAFE_UPDATES = 1;
 

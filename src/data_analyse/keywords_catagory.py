@@ -9,12 +9,16 @@
 
 import pandas as pd
 import pymysql
-from config import CONFIG
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import seaborn as sns
 from adjustText import adjust_text
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 全局设置中文字体和 seaborn 风格
 plt.rcParams['font.sans-serif'] = ['SimHei']
@@ -144,7 +148,7 @@ def plot_cluster_scatter(feature_dict, key_word):
         if len(cluster_features) > 0:
             # 取 Stars (影响力, 索引0) 为 x 轴，Slope (增长潜力, 索引2) 为 y 轴
             plt.scatter(cluster_features[:, 0], cluster_features[:, 2], 
-                        c=colors[i % len(colors)], label=f'Cluster {i}', s=100, alpha=0.6)
+                        c=colors[i % len(colors)], label=f'Cluster {i + 1}', s=100, alpha=0.6)
             
             # 创建文本对象，但不立即显示
             for j, cat in enumerate(cluster_cats):
@@ -172,5 +176,5 @@ if __name__ == "__main__":
     # print("--- 关键词特征字典 ---")
     # for k, v in feature_dict.items():
     #     print(f"{k}: {v}")
-    key_word = KMeans(feature_dict, 3)
+    key_word = KMeans(feature_dict, 4)
     plot_cluster_scatter(feature_dict, key_word)

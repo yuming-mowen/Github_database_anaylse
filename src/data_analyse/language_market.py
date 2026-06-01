@@ -6,7 +6,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pymysql
-from config import CONFIG
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 建立数据库连接（使用 config 中的连接参数）
 conn = pymysql.connect(**CONFIG)

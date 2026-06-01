@@ -6,10 +6,13 @@ import pymysql
 import jieba
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from config import CONFIG
 import seaborn as sns
 import re
 import string
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.config import CONFIG
 
 # 数据库提取：读取所有非空 description 字段
 conn = pymysql.connect(**CONFIG)
