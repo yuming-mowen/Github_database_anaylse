@@ -53,10 +53,9 @@ def classify_and_print_trends(slope_df):
     
     print("\n--- 趋势转折点分类分析结果 ---")
     print(slope_df.sort_values('slope', ascending=False))
-    return slope_df
+    return slope_df.sort_values('slope', ascending=False)
 
-def get_data():
-    conn = pymysql.connect(**CONFIG)
+def get_data(conn):
     # 联表获取类别、星数、年份信息
     query = """
     SELECT r.category, r.stars, YEAR(r.updated_at) as year, 
@@ -68,11 +67,15 @@ def get_data():
     conn.close()
     return df
 
-if __name__ == "__main__":
-    df = get_data()
+def plot_develop_tread(conn):
+    df = get_data(conn)
     # 拟合计算
     slope_df = analyze_trend_regression(df)
     # 热力图
     plot_growth_heatmap(df)
     # 分类打印
     classify_and_print_trends(slope_df)
+
+if __name__ == "__main__":
+    conn = pymysql.connect(**CONFIG)
+    plot_develop_tread(conn)

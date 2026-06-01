@@ -24,8 +24,7 @@ from config.config import CONFIG
 plt.rcParams['font.sans-serif'] = ['SimHei']
 sns.set_theme(style="whitegrid", font='SimHei')
 
-def get_cluster_data():
-    conn = pymysql.connect(**CONFIG)
+def get_cluster_data(conn):
     query = """
     SELECT r.category, r.stars, YEAR(r.updated_at) as year, 
            (SELECT COUNT(*) FROM repo_topics t WHERE t.repo_id = r.repo_id) as topics_count
@@ -170,11 +169,15 @@ def plot_cluster_scatter(feature_dict, key_word):
     plt.tight_layout()
     plt.show()
 
-
-if __name__ == "__main__":
-    feature_dict = get_cluster_data()
+def plot_keywords_KMeans(conn):
+    feature_dict = get_cluster_data(conn)
     # print("--- 关键词特征字典 ---")
     # for k, v in feature_dict.items():
     #     print(f"{k}: {v}")
     key_word = KMeans(feature_dict, 4)
     plot_cluster_scatter(feature_dict, key_word)
+
+
+if __name__ == "__main__":
+    conn = pymysql.connect(**CONFIG)
+    plot_keywords_KMeans(conn)
