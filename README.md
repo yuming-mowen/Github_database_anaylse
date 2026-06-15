@@ -21,17 +21,17 @@
 
 ## 项目结构
 
-```
+```py
 data/                    # 存放关键词结果 CSV 文件
 result_pictures/         # 可用于保存分析结果图片
 src/
   config/
-    config.py           # MySQL 数据库连接配置
+    config.py            # MySQL 数据库连接配置
   crawler/
-    crawler.py          # GitHub 搜索结果爬虫模块
-    extract.py          # HTML 提取并保存为 CSV
-    produce_alldata.py  # 批量爬取关键词并生成 CSV
-  data_analyse/         # 数据分析相关代码
+    crawler.py           # GitHub 搜索结果爬虫模块
+    extract.py           # HTML 提取并保存为 CSV
+    produce_alldata.py   # 批量爬取关键词并生成 CSV
+  data_analyse/          # 数据分析相关代码
     category_distribution.py
     keywords_catagory.py
     keywords_stars.py
@@ -121,7 +121,7 @@ streamlit run app.py
 - `项目描述词云`：展示描述词频词云
 - `项目质量矩阵`：展示 Stars 与 Topics 关系
 - `发展趋势分析`：展示年度热度演进热力图与趋势分类
-- `关键词K聚类`：展示关键词聚类分析结果
+- `标签聚类分析`：展示关键词聚类分析结果
 
 ## 代码说明
 
@@ -137,5 +137,3 @@ streamlit run app.py
 - `data/` 文件夹中已有 CSV 数据文件可直接用于分析
 - 若爬虫触发 GitHub 反爬，可降低请求频率或使用网络代理
 - 如需可视化图表保存功能，可将 `result_pictures/` 设为输出目录
-
----

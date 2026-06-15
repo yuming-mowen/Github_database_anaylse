@@ -49,7 +49,7 @@ def st_plot_clean():
 st.sidebar.title("🛠️ 数据分析中心")
 page = st.sidebar.selectbox(
     "选择分析模块",
-    ["数据管理平台", "标签热度排行", "星数分布分析", "语言市场份额", "项目描述词云", "项目质量矩阵", "发展趋势分析", "关键词K聚类"]
+    ["数据管理平台", "标签热度排行", "星数分布分析", "语言市场份额", "项目描述词云", "项目质量矩阵", "发展趋势分析", "标签聚类分析"]
 )
 st.sidebar.markdown("---")
 st.sidebar.info("💡 **分析结论**: 本平台基于数据库进行实时数据挖掘，旨在通过量化手段揭示开源社区技术趋势。")
@@ -168,7 +168,7 @@ elif page == "发展趋势分析":
         result_df = classify_and_print_trends(slope_df)
         st.dataframe(result_df, use_container_width=True)
 
-elif page == "关键词K聚类":
+elif page == "标签聚类分析":
     # 关键词聚类模块：使用 K-Means 对关键词进行分组并展示结果
     st.title("🧩 技术关键词聚类")
     with st.spinner('算法聚类中 (K-Means)...'):
